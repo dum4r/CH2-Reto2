@@ -62,7 +62,7 @@ public class CarController : MonoBehaviour{
 		if (transform.position.y < -10.0f ) Respawn();
 		// ! Respawn
 		if (objetoA.position.y < objetoB.position.y && AutoRespawn) Respawn();
-		if (Input.GetKeyDown(KeyCode.A)) Respawn();
+		if (Input.GetKeyDown(KeyCode.R)) Respawn();
 
 		// ! Velocity
 		if ( velocity > 0.0f ) velocity -= 10.0f * Time.deltaTime; // minimo de velocidad cero
